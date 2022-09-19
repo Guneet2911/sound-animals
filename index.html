@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Gideon+Roman&family=Lobster&family=Ms+Madi&family=Source+Code+Pro:ital,wght@1,200&display=swap" rel="stylesheet">
+        <title>Animal Sound Identification</title>
+    </head>
+    <body>
+    <center>
+        <div class="col-xs-12 header_div text-center">
+            <h2>Animal Sound Identification</h2>
+            <p>Note: Play different sounds like tiger , dog or ostrich.</p>
+        </div>
+        <div class="main_div">
+            <br>
+            <button class="btn btn-success" onclick="startClassification()">START</button>
+            <h3 id="result_label">I can hear - </h3>
+            <h3 id="result_confidence">Accuracy - </h3>
+            <br>
+            <img src="ostrich.jpg" width="300" height="250">
+        </div>
+        <div class="copy_right_footer">
+            Developed by - Guneet
+        </div>
+    </center>
+    </body>
+</html>
